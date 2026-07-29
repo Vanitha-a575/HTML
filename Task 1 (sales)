@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sales Letter</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color:#f4f4f4;">
+
+    <div style="width:700px; margin:auto; background:white; padding:20px; border:1px solid #ccc;">
+
+        <h1 style="color:darkblue; text-align:center;">
+            🎉 Special Offer on Smart Watches! 🎉
+        </h1>
+
+        <img src="smartwatch.jpg" alt="Smart Watch"
+             style="width:100%; height:350px;">
+
+        <h2>Stay Smart. Stay Healthy.</h2>
+
+        <p>
+            Looking for a stylish and feature-packed smartwatch?
+            Our latest Smart Watch helps you track your fitness,
+            monitor your heart rate, receive notifications, and much more.
+        </p>
+
+        <h3>Why Choose Our Smart Watch?</h3>
+        <ul>
+            <li>✔ Heart Rate Monitor</li>
+            <li>✔ Fitness & Sleep Tracking</li>
+            <li>✔ Long Battery Life</li>
+            <li>✔ Water Resistant</li>
+            <li>✔ Stylish Design</li>
+        </ul>
+
+        <h2 style="color:red;">Limited Time Offer!</h2>
+
+        <p>
+            <strong>Original Price:</strong> <del>₹5,999</del><br>
+            <strong>Offer Price:</strong> <span style="color:green;">₹3,999</span>
+        </p>
+
+        <p>
+            Hurry! Offer valid until stocks last.
+        </p>
+
+        <button style="background:green; color:white; padding:12px 25px; border:none; font-size:16px;">
+            Buy Now
+        </button>
+
+        <hr>
+
+        <p style="text-align:center;">
+            <strong>ABC Electronics</strong><br>
+            📞 +91 98765 43210<br>
+            📧 sales@abcelectronics.com
+        </p>
+
+    </div>
+
+</body>
+</html>
