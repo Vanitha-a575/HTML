@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tech Product Landing Page</title>
+
+    <script>
+        function welcome() {
+            alert("Welcome to Tech Product Landing Page!");
+        }
+
+        function buyNow() {
+            var name = prompt("Enter your Name:");
+
+            if (name != "") {
+                var result = confirm("Do you want to purchase this product?");
+
+                if (result == true) {
+                    alert("Thank You " + name + "! Your order has been placed.");
+                }
+                else {
+                    alert("Purchase Cancelled.");
+                }
+            }
+        }
+    </script>
+</head>
+
+<body onload="welcome()">
+
+<center>
+    <h1>TECH PRODUCT LANDING PAGE</h1>
+    <h3>Latest Gadgets at Affordable Prices</h3>
+    <hr>
+
+    <a href="#home">Home</a> |
+    <a href="#products">Products</a> |
+    <a href="#gallery">Gallery</a> |
+    <a href="#contact">Contact</a>
+
+    <hr>
+</center>
+
+<h2 id="home">Home</h2>
+
+<p>
+Welcome to our Tech Product Store. We offer high-quality laptops,
+smartphones, headphones, smart watches, and accessories at affordable prices.
+</p>
+
+<img src="laptop.jpg" width="300" height="200">
+
+<h3>Features</h3>
+
+<ul>
+    <li>Latest Technology</li>
+    <li>Affordable Price</li>
+    <li>Free Delivery</li>
+    <li>1 Year Warranty</li>
+</ul>
+
+<hr>
+
+<h2 id="products">Products</h2>
+
+<table border="1" cellpadding="10" cellspacing="5">
+
+<tr>
+<th>Image</th>
+<th>Product</th>
+<th>Price</th>
+</tr>
+
+<tr>
+<td><img src="laptop.jpg" width="120"></td>
+<td>Laptop</td>
+<td>₹55,000</td>
+</tr>
+
+<tr>
+<td><img src="headphones.jpg" width="120"></td>
+<td>Wireless Headphones</td>
+<td>₹2,999</td>
+</tr>
+
+<tr>
+<td><img src="watch.jpg" width="120"></td>
+<td>Smart Watch</td>
+<td>₹4,999</td>
+</tr>
+
+</table>
+
+<br>
+
+<input type="button" value="Buy Now" onclick="buyNow()">
+
+<hr>
+
+<h2 id="gallery">Gallery</h2>
+
+<h3>Product Video</h3>
+
+<video width="400" controls>
+    <source src="promo.mp4" type="video/mp4">
+</video>
+
+<br><br>
+
+<h3>Background Music</h3>
+
+<audio controls>
+    <source src="tech.mp3" type="audio/mpeg">
+</audio>
+
+<hr>
+
+<h2 id="contact">Contact Us</h2>
+
+<form>
+
+Name:<br>
+<input type="text"><br><br>
+
+Email:<br>
+<input type="email"><br><br>
+
+Message:<br>
+<textarea rows="4" cols="40"></textarea><br><br>
+
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+<input type="button" value="Custom Button" onclick="alert('Thank you for visiting our website!')">
+
+</form>
+
+<br>
+
+Visit:
+<a href="https://www.amazon.in" target="_blank">Amazon Tech Store</a>
+
+<hr>
+
+<p align="center">
+&copy; 2026 Tech Product Landing Page
+</p>
+
+</body>
+</html>
