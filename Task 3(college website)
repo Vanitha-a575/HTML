@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PSGR Krishnammal College for Women</title>
+</head>
+
+<body style="font-family:Arial; text-align:center; background-color:#f5f5f5;">
+
+    <!-- Image Link -->
+    <a href="https://www.psgrkcw.ac.in/" target="_blank">
+        <img src="college.jpg" alt="PSGR Krishnammal College"
+             width="900" height="220">
+    </a>
+
+    <hr color="purple">
+
+    <h1 style="color:purple;">
+        PSGR Krishnammal College for Women
+    </h1>
+
+    <h2>(Autonomous College)</h2>
+
+    <p>
+        Welcome to <b>PSGR Krishnammal College for Women</b>,
+        Coimbatore. The college is one of the leading institutions
+        offering quality education and empowering women through
+        academic excellence, innovation, and research.
+    </p>
+
+    <h3>Quick Links</h3>
+
+    <!-- Text Link -->
+    <p>
+        <a href="home.html">Home</a>
+    </p>
+
+    <!-- Webpage Link -->
+    <p>
+        Visit Official Website:
+        <a href="https://www.psgrkcw.ac.in/" target="_blank">
+            www.psgrkcw.ac.in
+        </a>
+    </p>
+
+    <hr>
+
+    <p>&copy; 2026 PSGR Krishnammal College for Women, Coimbatore.</p>
+
+</body>
+</html>
