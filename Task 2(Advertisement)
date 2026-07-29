@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Advertisement</title>
+</head>
+<body style="margin:0; font-family:Arial, sans-serif; background-color:#fff8dc;">
+
+    <div style="width:700px; margin:30px auto; border:3px solid orange; padding:20px; text-align:center; background-color:white;">
+
+        <h1 style="color:red;">🍕 HOT & FRESH PIZZA! 🍕</h1>
+
+        <img src="pizza.jpg" alt="Delicious Pizza" width="500" height="300">
+
+        <h2 style="color:green;">Buy 1 Get 1 FREE!</h2>
+
+        <p style="font-size:18px;">
+            Enjoy the taste of our freshly baked pizzas made with
+            premium cheese, fresh vegetables, and delicious toppings.
+        </p>
+
+        <h3 style="color:blue;">Why Choose Us?</h3>
+
+        <p>
+            ✔ Fresh Ingredients <br>
+            ✔ 100% Quality Guaranteed <br>
+            ✔ Fast Home Delivery <br>
+            ✔ Affordable Prices
+        </p>
+
+        <h2 style="color:red;">Starting from just ₹199!</h2>
+
+        <button style="background-color:red; color:white; padding:12px 25px; font-size:18px; border:none; border-radius:5px;">
+            Order Now
+        </button>
+
+        <hr>
+
+        <p>
+            <strong>Pizza Palace</strong><br>
+            📍 Tenkasi, Tamil Nadu<br>
+            📞 +91 98765 43210
+        </p>
+
+    </div>
+
+</body>
+</html>
