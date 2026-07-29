@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+<h1 align="center">STUDENT REGISTRATION FORM</h1>
+
+<form>
+
+<h3>Personal Details</h3>
+
+<label>Full Name:</label>
+<input type="text" name="fullname"><br><br>
+
+<label>Email:</label>
+<input type="text" name="email"><br><br>
+
+<label>Phone Number:</label>
+<input type="text" name="phone"><br><br>
+
+<label>Password:</label>
+<input type="password" name="password"><br><br>
+
+<label>Address:</label><br>
+<textarea name="address" rows="4" cols="40"></textarea><br><br>
+
+<label>Gender:</label><br>
+<input type="radio" name="gender" value="Male"> Male
+<input type="radio" name="gender" value="Female"> Female
+<input type="radio" name="gender" value="Other"> Other
+<br><br>
+
+<label>Skills:</label><br>
+<input type="checkbox" name="skill" value="HTML"> HTML<br>
+<input type="checkbox" name="skill" value="CSS"> CSS<br>
+<input type="checkbox" name="skill" value="JavaScript"> JavaScript<br>
+<input type="checkbox" name="skill" value="Python"> Python<br><br>
+
+<label>Department:</label>
+<select name="department">
+    <option>--Select Department--</option>
+    <option>B.Sc Computer Science</option>
+    <option>BCA</option>
+    <option>B.Com</option>
+    <option>BBA</option>
+    <option>M.Sc Computer Science</option>
+</select>
+<br><br>
+
+<label>Upload Photo:</label>
+<input type="file" name="photo">
+<br><br>
+
+<input type="submit" value="Register">
+<input type="reset" value="Reset">
+<input type="button" value="Click Me">
+
+</form>
+
+</body>
+</html>
