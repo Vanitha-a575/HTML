@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Class Timetable</title>
+</head>
+
+<body bgcolor="#E6F7FF">
+
+<center>
+    <h1 style="color:purple;">PSGR KRISHNAMMAL COLLEGE FOR WOMEN</h1>
+    <h2>Department of Computer Science</h2>
+    <h3>III B.Sc Computer Science - Class Timetable</h3>
+
+<table border="2" cellpadding="12" cellspacing="5">
+
+<tr bgcolor="#B0E0E6">
+    <th>Day</th>
+    <th>9:00-10:00</th>
+    <th>10:00-11:00</th>
+    <th>11:00-11:15</th>
+    <th>11:15-12:15</th>
+    <th>12:15-1:00</th>
+    <th>1:00-2:00</th>
+    <th>2:00-3:00</th>
+</tr>
+
+<tr>
+    <th>Monday</th>
+    <td bgcolor="#FF9999">Java</td>
+    <td bgcolor="#99CCFF">DBMS</td>
+    <td rowspan="6" bgcolor="#FFFACD"><b>BREAK</b></td>
+    <td bgcolor="#99FF99">Python</td>
+    <td bgcolor="#FFCC99">English</td>
+    <td bgcolor="#DDA0DD">Data Mining</td>
+    <td bgcolor="#FFE4B5">Lab</td>
+</tr>
+
+<tr>
+    <th>Tuesday</th>
+    <td bgcolor="#99FF99">Python</td>
+    <td bgcolor="#FF9999">Java</td>
+    <td bgcolor="#99CCFF">DBMS</td>
+    <td bgcolor="#F4A460">Maths</td>
+    <td colspan="2" bgcolor="#87CEFA">Python Lab</td>
+</tr>
+
+<tr>
+    <th>Wednesday</th>
+    <td bgcolor="#DDA0DD">Data Mining</td>
+    <td bgcolor="#FFCC99">English</td>
+    <td bgcolor="#99FF99">Python</td>
+    <td bgcolor="#FF9999">Java</td>
+    <td bgcolor="#99CCFF">DBMS</td>
+    <td bgcolor="#90EE90">Library</td>
+</tr>
+
+<tr>
+    <th>Thursday</th>
+    <td colspan="2" bgcolor="#87CEFA">DBMS Lab</td>
+    <td bgcolor="#DDA0DD">Data Mining</td>
+    <td bgcolor="#FFCC99">English</td>
+    <td bgcolor="#F4A460">Maths</td>
+    <td bgcolor="#99FF99">Python</td>
+</tr>
+
+<tr>
+    <th>Friday</th>
+    <td bgcolor="#FF9999">Java</td>
+    <td bgcolor="#F4A460">Maths</td>
+    <td bgcolor="#99CCFF">DBMS</td>
+    <td bgcolor="#DDA0DD">Data Mining</td>
+    <td colspan="2" bgcolor="#98FB98">Seminar</td>
+</tr>
+
+<tr>
+    <th>Saturday</th>
+    <td bgcolor="#FFCC99">English</td>
+    <td bgcolor="#99FF99">Python</td>
+    <td bgcolor="#FF9999">Java</td>
+    <td bgcolor="#99CCFF">DBMS</td>
+    <td bgcolor="#F4A460">Maths</td>
+    <td bgcolor="#E0FFFF">Sports</td>
+</tr>
+
+</table>
+
+</center>
+
+</body>
+</html>
